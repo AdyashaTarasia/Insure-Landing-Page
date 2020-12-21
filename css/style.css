@@ -1,1 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+@media only screen and (max-width: 250px) {
+    p, h3 { padding: 0 !important; text-align: center !important;}
+}
 
+.button {
+    background-color:hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%);
+    font-weight: 400px;
+    border-color: hsl(256, 26%, 20%);
+    border-radius: 2px;
+    padding: 5px 15px;
+    font-family: 'Karla', sans-serif;
+    width:160px;
+}
+
+.button:hover {
+    background-color:hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+    font-weight: 400px;
+    border-color: hsl(256, 26%, 20%);
+    border-radius: 2px;
+    padding: 5px 15px;
+    font-family: 'Karla', sans-serif;
+    width:160px;
+}
+.menu {
+    margin-top: 10px;
+}
+.button-2 {
+    background-color:hsl(256, 26%, 20%);
+    color:hsl(0, 0%, 98%);
+    font-weight: 400px;
+    border-color: hsl(0, 0%, 98%);
+    border-width: 2px;
+    padding: 5px 15px;
+    font-family: 'Karla', sans-serif;
+    width:160px;
+}
+.button-2:hover {
+    background-color:hsl(0, 0%, 98%);
+    color:hsl(256, 26%, 20%);
+    font-weight: 400px;
+    border-color: hsl(0, 0%, 98%);
+    border-width: 2px;
+    padding: 5px 15px;
+    font-family: 'Karla', sans-serif;
+    width:160px;
+}
+hr {
+    display: flexbox;
+    width:20%;
+    border-width: 1.5px;
+    background-color: white;
+    margin: 80px 0px 0px;
+    align-self: flex-start;
+}
+
+.line {
+    width:100%;
+    border-width: 5px;
+}
+
+.footer-link {
+    color:hsl(270, 9%, 17%);
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 900px;
+}
+
+.white-button
+{
+    display: flex;
+    align-items: center;
+}
